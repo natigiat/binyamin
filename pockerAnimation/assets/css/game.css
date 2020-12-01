@@ -1,0 +1,106 @@
+body{
+    margin:0px
+}
+
+
+.board {
+    position: relative;
+    display: contents;
+}
+
+
+.this1 {
+    position: absolute;
+    left: 2em;
+    top: 20%;
+    width: 72px;
+  }
+  .this2 {
+    position: absolute;
+    left: 47em;
+    top: 20%;
+    width: 72px;
+  }
+  .this3 {
+    position: absolute;
+    left: 23.5em;
+    top: 50%;
+    width: 72px;
+  }
+  .span-img {
+    width: 72px;
+  }
+  .money1 {
+    position: absolute;
+    left: 2em;
+    top: 30%;
+    width: 72px;
+    animation: bounceAround 5.1s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .money2 {
+    position: absolute;
+    left: 23.5em;
+    top: 47%;
+    width: 72px;
+    animation: bounceAround3 5.1s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .money3 {
+    position: absolute;
+    left: 47em;
+    top: 30%;
+    width: 72px;
+    animation: bounceAround2 5.1s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes bounceAround {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-2em) translateX(22.7em);
+    }
+  }
+  
+  @keyframes bounceAround2 {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-2em) translateX(-22.7em);
+    }
+  }
+  @keyframes bounceAround3 {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-9em);
+    }
+  }
+  .that {
+    background-color: #00000004;
+    text-align: center;
+  }
+  .colorblack {
+    color: #000;
+    font-weight: bold;
+  }
+  
